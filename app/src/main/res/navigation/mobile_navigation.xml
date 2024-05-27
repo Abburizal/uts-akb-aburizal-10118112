@@ -1,0 +1,30 @@
+<!-- mobile_navigation.xml -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.uts1.ui.HomeFragment"
+        android:label="Home" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_daily"-->
+<!--        android:name="com.example.uts1.ui.DailyActivityFragment"-->
+<!--        android:label="Daily Activity" />-->
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="com.example.uts1.ui.GalleryFragment"
+        android:label="Gallery" />
+
+    <fragment
+        android:id="@+id/navigation_music"
+        android:name="com.example.uts1.ui.MusicFragment"
+        android:label="Music dan Video" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.uts1.ui.ProfileFragment"
+        android:label="Profile" />
+</navigation>

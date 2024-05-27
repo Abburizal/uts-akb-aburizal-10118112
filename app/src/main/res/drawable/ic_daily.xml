@@ -1,0 +1,10 @@
+<!-- res/drawable/ic_daily.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M12 4.5C11.17 4.5 10.5 5.17 10.5 6S11.17 7.5 12 7.5 13.5 6.83 13.5 6 12.83 4.5 12 4.5zm0-2.5C13.38 2 14.5 3.12 14.5 4.5S13.38 7 12 7 9.5 5.88 9.5 4.5 10.62 2 12 2zM11 9.74C9.26 9.88 7.5 11.11 7.5 12.5c0 1.38 1.26 2.63 3 2.77V18h2v-3.49C14.74 15.13 16 13.88 16 12.5c0-1.39-1.26-2.63-3-2.76V6H11v3.74zm-5 6.26h3V18h8v-2h3v2c0 1.1-.9 2-2 2H8c-1.1 0-2-.9-2-2v-2z"/>
+</vector>
