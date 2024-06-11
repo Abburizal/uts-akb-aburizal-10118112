@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">UTS1</string>
+    <string name="get_started">Get Started</string>
+    <string name="start">Get Started</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="your_name">Your Name</string>
+    <string name="description_about_yourself">Description about yourself</string>
+    <string name="favorite_movies_inception_interstellar">Favorite Movies: Inception, Interstellar</string>
+    <string name="goals_become_a_software_engineer">Goals: Become a software engineer</string>
+    <string name="hobbies_reading_traveling">Hobbies: Reading, Traveling</string>
+
 </resources>

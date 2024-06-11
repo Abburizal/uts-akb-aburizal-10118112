@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <!-- Item lainnya -->
+    <item
+        android:id="@+id/navigation_walkthrough"
+        android:icon="@drawable/walkwalk"
+        android:title="Walkthrough" />
+</menu>

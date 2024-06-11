@@ -1,6 +1,5 @@
 package com.example.uts1
 
-// SplashActivity.kt
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -13,7 +12,17 @@ class SplashActivity : AppCompatActivity() {
         // Simulate loading
         Thread {
             Thread.sleep(3000)
-            startActivity(Intent(this, MainActivity::class.java))
+
+            val preferences = getSharedPreferences("app_prefs", MODE_PRIVATE)
+            val walkthroughComplete = preferences.getBoolean("walkthrough_complete", false)
+
+            val nextActivity = if (walkthroughComplete) {
+                MainActivity::class.java
+            } else {
+                WalkthroughActivity::class.java
+            }
+
+            startActivity(Intent(this, nextActivity))
             finish()
         }.start()
     }

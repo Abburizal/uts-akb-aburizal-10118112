@@ -1,36 +1,28 @@
 package com.example.uts1
 
-// WalkthroughFragment.kt
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.viewpager2.widget.ViewPager2
+import com.example.uts1.adapters.WalkthroughAdapter
 
 class WalkthroughFragment : Fragment() {
-    private var page: Int? = null
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        page = arguments?.getInt(ARG_PAGE)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_walkthrough, container, false)
     }
 
-    companion object {
-        private const val ARG_PAGE = "page"
-
-        @JvmStatic
-        fun newInstance(page: Int) =
-            WalkthroughFragment().apply {
-                arguments = Bundle().apply {
-                    putInt(ARG_PAGE, page)
-                }
-            }
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val viewPager: ViewPager2 = view.findViewById(R.id.viewPager)
+        val layouts = listOf(R.layout.page1, R.layout.page2, R.layout.page3)
+        val adapter = WalkthroughAdapter(layouts)
+        viewPager.adapter = adapter
     }
 }
