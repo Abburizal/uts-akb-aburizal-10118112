@@ -15,6 +15,11 @@ import com.example.uts1.models.DailyActivity
 import com.example.uts1.models.Friend
 
 class DailyActivityFragment : Fragment() {
+    // 12-13
+    //10118122
+    //Abbuizral Chillihyat
+    //IF3-AKB-UL1
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

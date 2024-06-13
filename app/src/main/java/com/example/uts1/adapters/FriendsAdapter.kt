@@ -9,7 +9,10 @@ import com.example.uts1.models.Friend
 
 class FriendsAdapter(private val friends: List<Friend>) :
     RecyclerView.Adapter<FriendsAdapter.FriendViewHolder>() {
-
+    // 12-13
+    //10118122
+    //Abbuizral Chillihyat
+    //IF3-AKB-UL1
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FriendViewHolder {
         val binding = ItemFriendBinding.inflate(
             LayoutInflater.from(parent.context), parent, false

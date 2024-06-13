@@ -7,7 +7,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.uts1.R
 
 class WalkthroughAdapter(private val layouts: List<Int>) : RecyclerView.Adapter<WalkthroughAdapter.WalkthroughViewHolder>() {
-
+    // 12-13
+    //10118122
+    //Abbuizral Chillihyat
+    //IF3-AKB-UL1
     class WalkthroughViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WalkthroughViewHolder {

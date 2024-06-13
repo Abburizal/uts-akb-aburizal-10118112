@@ -9,7 +9,10 @@ import com.example.uts1.R
 
 
 class GalleryAdapter(private val images: List<Int>) : RecyclerView.Adapter<GalleryAdapter.GalleryViewHolder>() {
-
+    // 12-13
+    //10118122
+    //Abbuizral Chillihyat
+    //IF3-AKB-UL1
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GalleryViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_gallery_image, parent, false)
         return GalleryViewHolder(view)

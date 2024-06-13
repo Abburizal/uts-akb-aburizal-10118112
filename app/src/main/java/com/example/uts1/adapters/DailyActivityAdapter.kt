@@ -9,7 +9,10 @@ import com.example.uts1.models.DailyActivity
 
 class DailyActivityAdapter(private val dailyActivities: List<DailyActivity>) :
     RecyclerView.Adapter<DailyActivityAdapter.DailyActivityViewHolder>() {
-
+        // 12-13
+        //10118122
+        //Abbuizral Chillihyat
+        //IF3-AKB-UL1
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DailyActivityViewHolder {
         val binding = ItemDailyActivityBinding.inflate(
             LayoutInflater.from(parent.context), parent, false

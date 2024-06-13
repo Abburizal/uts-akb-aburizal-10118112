@@ -8,6 +8,10 @@ import androidx.fragment.app.Fragment
 import com.example.uts1.R
 
 class HomeFragment : Fragment() {
+    // 12-13
+    //10118122
+    //Abbuizral Chillihyat
+    //IF3-AKB-UL1
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

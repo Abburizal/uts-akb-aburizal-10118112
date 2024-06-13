@@ -11,6 +11,10 @@ import com.example.uts1.R
 import com.example.uts1.adapters.GalleryAdapter
 
 class GalleryFragment : Fragment() {
+    // 12-13
+    //10118122
+    //Abbuizral Chillihyat
+    //IF3-AKB-UL1
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
