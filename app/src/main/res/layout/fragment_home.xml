@@ -29,13 +29,13 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:contentDescription="@string/profile_image"
-                android:src="@drawable/ic_profile"
+                android:src="@drawable/icon_image"
                 android:layout_gravity="center"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/your_name"
+                android:text="Abburizal Chillihyat"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:layout_marginTop="8dp"

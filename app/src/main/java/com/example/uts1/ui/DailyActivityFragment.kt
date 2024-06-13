@@ -1,5 +1,5 @@
 // DailyActivityFragment.kt
-package com.example.myapp.ui
+package com.example.uts1.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -38,6 +38,11 @@ class DailyActivityFragment : Fragment() {
             DailyActivity(R.drawable.ic_activity_example, "Read a book"),
             DailyActivity(R.drawable.ic_activity_example, "Work on a project")
         )
+    }
+
+    private fun DailyActivity(icon: Int, title: String): DailyActivity {
+
+        return TODO("Provide the return value")
     }
 
     private fun getFriendsList(): List<Friend> {

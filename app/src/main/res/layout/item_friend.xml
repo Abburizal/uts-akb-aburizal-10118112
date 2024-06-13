@@ -3,19 +3,20 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="8dp"
+    android:gravity="center">
 
     <ImageView
-        android:id="@+id/friendImageView"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:contentDescription="Friend image" />
+        android:id="@+id/friend_image"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/app_name" />
 
     <TextView
-        android:id="@+id/friendNameView"
-        android:layout_width="wrap_content"
+        android:id="@+id/friend_name"
+        android:layout_width="36dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Friend name"
+        android:textColor="@android:color/black"
         android:textSize="16sp" />
+
 </LinearLayout>
